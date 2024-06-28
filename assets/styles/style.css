@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+
+/*  ------------ CUERPO index------------ */
+main{margin: auto; font-family: 'karla';  background-color:#b5d7ca; display: flex; flex-wrap: wrap;}
+section{width: 75%; margin: 10px;}
+
+/* Procuctos Destacados*/
+div {
+    width: 100%;
+    height: 650px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+div h2{
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+    color: #000;
+}
+div article {
+    width: 25%;
+    height: 72%;
+    border-radius: 25px;
+    background-color: #835210;
+}
+div img{width: 100%; border-top-right-radius: 25px; border-top-left-radius: 25px;}
+div p {
+    padding: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Staff  */
+.staff article{width: 40%; background-color: #835210;}
+.staff p{color: #000;}
+#persona1{
+    width: 100%;
+    height: 76%;
+    border-start-start-radius: 25px;
+    border-start-end-radius: 25px;
+    background-image: url(../img/persona1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#persona2{
+    width: 100%;
+    height: 76%;
+    border-start-start-radius: 25px;
+    border-start-end-radius: 25px;
+    background-image: url(../img/persona2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+aside{width: 20%;}
+aside div{
+    width: 100%;
+    height: 250px;
+    margin: 15px;
+    padding: 13px;
+    border-radius: 25px;
+    color: rgb(206, 206, 206);
+    background-color: #8b0000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+aside h4{text-align: center;color: #fff;}
+aside a{text-decoration: none;color: #fff;}
+aside img{width: 80%;margin: 0 10%;border-radius: 0;}

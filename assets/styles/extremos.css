@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+/* Encabezado */
+header{
+    width: 100%;
+    padding: 10px 40px;
+    background-color: #5f0014;
+    display: flex;
+    justify-content: space-between;
+}
+.horizontal li{padding: 50px 15px;list-style: none;display: inline-block;}
+.horizontal a{
+    padding: 13px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: 'Karla';
+    font-size: 1em;
+    color: #fff;
+    background-color: #835210;
+}
+.vertical{position: absolute;display: none;}
+.horizontal li:hover .vertical{display: block;}
+.vertical li a{border: 0; color: #fff;}
+
+/* Pie de pagina */
+footer{
+    padding: 30px;
+    text-align: center;
+    font-family: 'Karla';
+    background-color: #5f0014;
+}
+footer a{
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 2em;
+    color: #fff;
+    background-color: #835210;
+}
+footer p{padding-top: 20px; font-size: 1.4em;color: #fff;
+}
